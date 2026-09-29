@@ -1,35 +1,41 @@
-# Enneagram for Us
+# A field guide to us
 
-### S + G · A field guide to us
+**Susanna + Mr. Professional Man. Two operating systems. So many tabs open.**
 
-A personal, interactive Enneagram field guide for Susanna and Greg: a place to explore individual patterns, understand each other, and turn reflection into useful conversations.
+## [✨ Click here. Enter the field guide.](https://ohsusannamarie.github.io/enneagram-for-us/)
 
-**[Open the field guide →](https://ohsusannamarie.github.io/enneagram-for-us/)**
+That's it. Click the link and you're in. No downloads, setup, or technical side quests required.
 
-## Explore
+Welcome to our very specific corner of the internet: Enneagram deep dives, big feelings, fiercely defended autonomy, and a little less “what the hell just happened?”
 
-| Section | What you can do |
+We have individual reports. We have relationship tools. We have an internal committee, because apparently one inner monologue wasn't enough. Most of all, we have somewhere to get curious about each other and put that curiosity to use.
+
+## Pick your adventure
+
+| Who's here? | What's inside? |
 | --- | --- |
-| **Susanna** | Explore a personalized report, nine-type circle, internal committee, pattern explorer, Stay tool, and personal user manual. |
-| **Greg** | Explore a personalized report, nine-type circle, internal committee, pattern explorer, autonomy check, and personal user manual. |
-| **Us** | Compare perspectives, translate possible needs, work through conflict and repair, request support, record decisions, check relationship weather, and answer discovery questions together. |
-| **Library** | Read source notes, understand the evidence labels, and back up or restore your personalization. |
+| **Susanna** | The possibility department is OPEN. Explore the personalized report, nine-type circle, internal committee, pattern explorer, Stay tool, and personal user manual. |
+| **Mr. Professional Man** | Autonomy has entered the chat. Explore the personalized report, nine-type circle, internal committee, pattern explorer, autonomy check, and personal user manual. |
+| **Us** | Compare perspectives, translate possible needs, untangle a conflict, make a repair, ask for support, and check the relationship weather. Also: discovery questions with a pass-the-device reveal. |
+| **Library** | For the “okay, but where did that come from?” crowd. Book sources, evidence labels, and backups live here. |
 
-Across 28 sections, the guide includes 34 individual report insights, 13 relationship comparison dimensions, and eight discovery questions. You can mark an interpretation **Yes**, **Sometimes**, or **Nope**, add context, and build a record of what actually fits.
+There are **28 sections, 34 individual report insights, 13 relationship comparison dimensions, and eight discovery questions** to poke around in. No need to tackle the whole thing in one sitting. Follow whatever feels useful today.
 
-## A guide you can disagree with
+## “That sounds like me.” “Sometimes.” “Absolutely not.”
 
-The guide keeps three kinds of information distinct:
+All valid responses. Mark an interpretation **Yes**, **Sometimes**, or **Nope**, add your context, and help the guide get more specific about the actual humans using it.
 
-- **Source-backed theory:** ideas attributed to the Enneagram books in the library.
-- **Personalized inference:** interpretations to explore, revise, or reject.
-- **User-confirmed observations:** responses and experiences entered by the people using the guide. A shared confirmation requires both people to answer Yes.
+Every insight has a lane:
 
-Enneagram language is used for reflection, not diagnosis. Type patterns do not establish someone's motives, attachment style, or mental health. Qualitative chart readings are not presented as verified numeric scores, and wings, instincts, and development levels are not assigned as facts.
+- **Source-backed theory:** here's what an Enneagram author says.
+- **Personalized inference:** here's a possible connection to us. Worth exploring; open to revision.
+- **User-confirmed observation:** here's what we've said fits our experience. Shared confirmation needs a Yes from both people. No voting on your partner's behalf. Nice try.
 
-## Source library
+A type is a starting point for a conversation. It doesn't tell us exactly what someone thinks, diagnose anything, or grant psychic powers. Wings, instincts, and development levels aren't assigned as facts, and qualitative chart readings aren't dressed up as verified numeric scores.
 
-The guide draws on six supplied EPUBs, with relevant chapters and EPUB locations documented inside the app:
+## Yes, there was a book pile
+
+Six supplied EPUBs informed the guide. Relevant chapters and EPUB locations are documented inside the Library:
 
 - *The Enneagram, Relationships, and Intimacy* — David Daniels and Suzanne Dion
 - *Discovering Your Personality Type* — Don Richard Riso and Russ Hudson
@@ -38,29 +44,28 @@ The guide draws on six supplied EPUBs, with relevant chapters and EPUB locations
 - *Understanding the Enneagram* — Don Richard Riso and Russ Hudson
 - *Enneagram: The Complete Guide* — Sierra Mackenzie
 
-The repository does not include the EPUBs or long book extracts. Personalized content also draws on the prior conversation; some long source messages were only partially available during retrieval. The app's source notes explain the resulting limits and corrections.
 
-## Your notes stay in your browser
+The books themselves and long extracts aren't included here. Personalized material also draws on our earlier conversation; some long messages were only partially available during retrieval. The Library explains the limits and source-informed corrections. Even a very enthusiastic deep dive needs receipts.
 
-Responses, manuals, and journal entries save automatically using localStorage. There is no account, backend, analytics, or cross-device syncing. Saved notes are not sent to this repository.
+## Your notes have a home. Back them up.
 
-- Use **Library → Save, export & restore** to export a JSON backup or copy the backup text.
-- Restore from a JSON file or pasted backup after validation and an explicit replace step.
-- Back up before clearing browser data or switching devices. Local-file and hosted-site storage are separate.
-- If browser storage is unavailable or full, the guide keeps working for the current session and offers backup options.
+Responses, manuals, and journal entries save automatically in **the browser you're using**. No account to create. No analytics. No backend. Your saved responses aren't sent to this repository, and they don't automatically follow you to another device.
 
-Local notes are not encrypted. The public website includes its built-in names and personalized analyses; those are separate from the private responses saved in your browser.
+In **Library → Save, export & restore**, you can download a JSON backup or copy the backup text, then restore from a file or pasted text when you need it. Back up before clearing browser data or switching devices. Future You appreciates the assist.
 
-## Run or host it
+If browser storage is unavailable or full, the guide still works for that session. Make a backup before closing it. Local notes aren't encrypted; the built-in names and personalized analyses are part of the public site.
 
-The entire app is **[index.html](index.html)**. Open it in a modern browser, or serve it as a static page. It has no build step, package installation, external fonts, scripts, or image dependencies.
+<details>
+<summary><strong>For the curious: how it works + what was tested</strong></summary>
 
-This repository is published through GitHub Pages from the root of `main`. The page uses responsive layouts, labeled controls, keyboard focus styles, a skip link, and reduced-motion support.
+The whole app lives in one self-contained `index.html`, published through GitHub Pages. No build step or external fonts, scripts, or image dependencies. Just use the live link above.
 
-## Verification
+The page includes responsive layouts, labeled controls, keyboard focus styles, a skip link, and reduced-motion support.
 
-The delivered build passed **44 local checks**, including all 28 views, source-reference validation, evidence-state rules, backup validation, imported-text escaping, and unavailable, corrupt, or full storage behavior.
+The delivered build passed **44 local checks** covering all 28 views, source references, evidence rules, backups, imported-text escaping, and unavailable, corrupt, or full storage behavior.
 
-Browser checks covered persistence after reload, mutual confirmations, discovery answer hiding and reveal, practical tools, journal save/delete/undo, file import, and copy/paste backup restoration. All 28 sections were checked at a 390px viewport for page overflow and unlabeled fields. The final route sweep reported no JavaScript errors or warnings.
+Browser checks covered saved responses after reload, mutual confirmations, discovery answer hiding and reveal, practical tools, journal save/delete/undo, file import, and copy/paste backup restoration. All 28 sections were checked at a 390px viewport for page overflow and unlabeled fields. The final route sweep reported no JavaScript errors or warnings.
 
-**Known verification limits:** native download completion could not be confirmed in the embedded test browser; the copyable-text backup passed a round trip. Print output, a full screen-reader audit, and comprehensive cross-browser testing remain unverified.
+Still unverified: native download completion in the embedded test browser, print output, a full screen-reader audit, and comprehensive cross-browser testing. The copyable-text backup passed a round trip.
+
+</details>
