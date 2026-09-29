@@ -1,1 +1,0 @@
-# enneagram-for-us
